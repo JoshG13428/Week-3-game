@@ -1,0 +1,125 @@
+body {
+	background-color: white;
+	position:relative;
+
+
+}
+
+header {
+	background-image: url("cropped--i_love_90s_logo_website1.jpg");
+	display:block;
+	height:198px;
+}
+
+
+#picture_area {
+
+	display:inline-block;
+	width:500px;
+	height:500px;
+	position:absolute;
+	left:170px;
+	border-radius: 50px;
+}
+
+img {
+
+	position: absolute;
+	left: 200px;
+	top: 230px;
+}
+
+
+#playing_area {
+
+	display:inline-block;
+	width:375px;
+	height:500px;
+	background-color: gray;
+	position:absolute;
+	right:230px;
+	border-radius: 50px;
+}
+#instr  {
+	font-size:20px;
+	font-family:Arial, Courier, serif;
+	font-weight: bold;
+	text-align: center;
+	}
+
+#lettering {
+
+	font-weight: bold;
+	text-align: center;
+
+}
+
+#used {
+	margin-top:10px;
+	font-size:12px;
+	font-family:Arial, Courier, serif;
+	font-weight: bold;
+	text-align: center;
+	display:block;
+	width:150px;
+	margin-left:110px;
+	color:yellow;
+}
+
+#usedlet  {
+
+	text-align:center;
+	margin-left:50px;
+	font-weight:bold;
+	font-size: 30px;
+
+}
+
+button {
+
+	margin-left: 60px;
+	margin-top: 30px;
+
+}
+
+
+#wins{
+	margin-top:50px;
+	font-size:15px;
+	font-family:Arial, Courier, serif;
+	font-weight: bold;
+	text-align: center;
+	display:inline-block;
+	width:100px;
+	margin-left:130px;
+
+}
+
+#losses, #cguesses, #iguesses, #remaining {
+	margin-top:10px;
+	font-size:15px;
+	font-family:Arial, Courier, serif;
+	font-weight: bold;
+	text-align: center;
+	display:inline-block;
+	width:100px;
+	margin-left: 130px;
+}
+
+#wins2 { 
+	margin-top:50px;
+	font-size:15px;
+	font-family:Arial, Courier, serif;
+	font-weight: bold;
+	display:inline-block;
+	width:100px; }
+
+#losses2, #cguesses2, #iguesses2, #remaining2 {
+	margin-top:10px;
+	font-size:15px;
+	font-family:Arial, Courier, serif;
+	font-weight: bold;
+	display:inline-block;
+	width:100px;
+
+}
